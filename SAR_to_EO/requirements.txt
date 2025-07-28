@@ -1,0 +1,15 @@
+# --- Core Deep-Learning stack ---
+torch>=2.0            # PyTorch
+torchvision>=0.15     # image transforms & pretrained utils
+torchmetrics>=1.2     # PSNR, SSIM, … for evaluation
+
+# --- Geospatial & image I/O ---
+rasterio>=1.2         # read/write GeoTIFF (Sentinel-1/2)
+Pillow>=9.0           # PIL image backend
+
+# --- Data science utilities ---
+numpy>=1.23
+scikit-learn>=1.2     # train/val/test split, metrics helpers
+matplotlib>=3.6       # plots & visualisations
+tqdm>=4.64            # progress-bars
+pytorch-mssim
