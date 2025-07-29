@@ -1,4 +1,4 @@
-### Team Members :- Puneet Chauhan(2K23/IT/124) pschauhan6149@gmail.com, Raghav Garg (2K23/IT/126) raghavgarg_23it126@dtu.ac.in ###
+
 
 https://www.kaggle.com/code/puneetchauhan01/sar-to-eo
 
