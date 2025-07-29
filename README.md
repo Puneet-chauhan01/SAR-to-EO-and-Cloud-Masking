@@ -20,31 +20,6 @@ To solve this:
 - **TacoReader** helped us work with the CloudSEN12 and Sen12MS datasets using STAC-compliant metadata.
 - We used **mixed precision (AMP)** and **gradient clipping** to stabilize training and optimize GPU usage.
 
----
-
-##  Project Structure
-
-\`\`\`
-.
-├── Cloud_Mask/
-│   ├── output/
-│   ├── Readme.md
-│   ├── best_model_weights.pth
-│   ├── cloud_segmentation_readme.docx
-│   ├── code.ipynb
-│   ├── final_model_weights.pth
-│   └── requirements.txt
-│
-├── SAR_to_EO/
-│   ├── checkpoints/
-│   ├── samples/
-│   ├── Readme.md
-│   ├── requirements.txt
-│   ├── sar-to-eo-2.ipynb
-│
-├── .gitattributes
-└── Readme.md
-\`\`\`
 
 ---
 
@@ -62,9 +37,9 @@ Translate Sentinel-1 SAR images into Sentinel-2-like EO images using CycleGAN va
 
 ###  How to Run
 
-\`\`\`bash
+\\\bash
 pip install torch torchvision rasterio matplotlib scikit-learn pillow torchmetrics
-\`\`\`
+\\\
 
 Then run \`sar-to-eo-2.ipynb\` in order.
 
